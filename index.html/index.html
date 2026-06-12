@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F6F6F8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#14141A" media="(prefers-color-scheme: dark)" />
+    <title data-brand-title>饭堡堡 · 收藏我们的美</title>
+    <meta name="description" content="饭堡堡 的个人作品集 — 视觉设计、插画与摄影，记录温柔的小作品。" />
+    <meta name="robots" content="index, follow" />
+    <meta name="format-detection" content="telephone=no, email=no, address=no" />
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="public/favicon.svg" type="image/svg+xml" />
+
+    <!-- Open Graph (微信、微博、推特、Facebook 等) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="饭堡堡 · 收藏我们的美" />
+    <meta property="og:title" content="饭堡堡 · 收藏我们的美" />
+    <meta property="og:description" content="视觉设计、插画与摄影，记录温柔的小作品。" />
+    <meta property="og:image" content="public/avatar.jpg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="800" />
+    <meta property="og:url" content="" />
+    <meta property="og:locale" content="zh_CN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="饭堡堡 · 收藏我们的美" />
+    <meta name="twitter:description" content="视觉设计、插画与摄影，记录温柔的小作品。" />
+    <meta name="twitter:image" content="public/avatar.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <header class="nav" id="home">
+      <a class="logo" href="#about" aria-label="返回首页" data-brand-link>
+        <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.6L18.5 9 14 11.2 12.6 16 12 14.6 11.4 16 10 11.2 5.5 9l4.7-1.4L12 3z"/><path d="M19 16l.7 1.6L21.4 18l-1.7.4L19 20l-.7-1.6L16.6 18l1.7-.4L19 16z"/></svg></span>
+        <span class="logo-text" data-brand contenteditable="true" spellcheck="false" data-placeholder="你的名字" title="点击改名">饭堡堡</span>
+        <span class="logo-edit-hint" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        </span>
+      </a>
+      <div class="nav-actions">
+        <a href="#about" class="nav-pill is-active">About</a>
+        <button class="theme-toggle" data-theme-toggle aria-label="切换主题" title="明暗主题">
+              <svg class="theme-icon-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+              <svg class="theme-icon-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+            <button class="theme-toggle" data-share-mini aria-label="分享作品集" title="分享这个作品集">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg>
+            </button>
+            <a class="nav-cta" href="mailto:hello@fanbaobao.design">Say hi <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="public/hero-poster.svg" aria-hidden="true">
+          <source src="public/hero.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="hero-inner reveal">
+          <span class="eyebrow"><span class="eyebrow-dot"></span>hello, i am</span>
+          <h1 class="hero-title">
+            <span class="line-sm">定格</span>
+            <span class="line-lg"><em>你我，</em></span>
+            <span class="line-md" data-text="那些发光的瞬间">那些发光的瞬间</span>
+          </h1>
+          <p class="hero-sub">把我们的美丽刹那，藏进记忆的画册。</p>
+          <div class="hero-meta">
+            <span class="meta-item"><span class="meta-dot" style="--c: #A5D6D9"></span>Shanghai</span>
+            <span class="meta-sep">·</span>
+            <span class="meta-item">Open to projects</span>
+            <span class="meta-sep">·</span>
+            <span class="meta-item meta-count"><span class="meta-count-num" data-count="all">0</span> 个小作品</span>
+          </div>
+        </div>
+
+        <div class="hero-deco" aria-hidden="true">
+          <span class="deco-dot" style="--x: 12%; --y: 22%; --d: 0s"></span>
+          <span class="deco-dot" style="--x: 88%; --y: 14%; --d: .6s"></span>
+          <span class="deco-dot" style="--x: 80%; --y: 78%; --d: 1.2s"></span>
+          <span class="deco-dot" style="--x: 18%; --y: 80%; --d: 1.8s"></span>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <div class="section-head reveal">
+          <div><span class="eyebrow">Selected works · 2026</span><h2 class="section-title">Gallery</h2></div>
+          <p class="section-sub">从一只猫的午觉，到一座城市的黄昏，都是我认真拍 / 画下来的小事情。</p>
+        </div>
+        <div class="gallery-toolbar reveal">
+          <div class="filters" role="tablist" aria-label="作品筛选">
+            <span class="filter-indicator" aria-hidden="true"></span>
+            <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">全部 <span class="filter-count" data-count="all">0</span></button>
+          </div>
+          <p class="gallery-status" data-status>还没有作品 · 点击右边的按钮上传第一张 ✦</p>
+          <label class="upload-btn" aria-label="上传图片到作品集">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 5v14M5 12h14"/>
+            </svg>
+            <span>上传作品</span>
+            <input type="file" accept="image/*" multiple data-upload />
+          </label>
+          
+        </div>
+        <div class="grid" data-grid data-page="0">
+          <article class="card" data-category="illustration" data-page="0" data-index="0" style="--i: 0">
+            <div class="card-media">
+              <div class="card-bg" aria-hidden="true"></div>
+              <div class="card-empty" aria-hidden="true">
+                <span class="card-empty-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+                <span>添加图片</span>
+              </div>
+              <div class="card-tag" data-tag contenteditable="true" spellcheck="false" data-placeholder="插画" title="点击编辑标签,Enter 保存">插画</div>
+              <button type="button" class="card-remove" aria-label="删除这张作品">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6l12 12M18 6 6 18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="card-meta">
+              <span class="card-num">01</span>
+              <div>
+                <h3 class="card-title" contenteditable="true" spellcheck="false" data-placeholder="为它起个名字"></h3>
+                <p class="card-desc" contenteditable="true" spellcheck="false" data-placeholder="写一句话介绍它"></p>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-category="illustration" data-page="0" data-index="1" style="--i: 1">
+            <div class="card-media">
+              <div class="card-bg" aria-hidden="true"></div>
+              <div class="card-empty" aria-hidden="true">
+                <span class="card-empty-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+                <span>添加图片</span>
+              </div>
+              <div class="card-tag" data-tag contenteditable="true" spellcheck="false" data-placeholder="插画" title="点击编辑标签,Enter 保存">插画</div>
+              <button type="button" class="card-remove" aria-label="删除这张作品">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6l12 12M18 6 6 18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="card-meta">
+              <span class="card-num">02</span>
+              <div>
+                <h3 class="card-title" contenteditable="true" spellcheck="false" data-placeholder="为它起个名字"></h3>
+                <p class="card-desc" contenteditable="true" spellcheck="false" data-placeholder="写一句话介绍它"></p>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-category="illustration" data-page="0" data-index="2" style="--i: 2">
+            <div class="card-media">
+              <div class="card-bg" aria-hidden="true"></div>
+              <div class="card-empty" aria-hidden="true">
+                <span class="card-empty-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+                <span>添加图片</span>
+              </div>
+              <div class="card-tag" data-tag contenteditable="true" spellcheck="false" data-placeholder="插画" title="点击编辑标签,Enter 保存">插画</div>
+              <button type="button" class="card-remove" aria-label="删除这张作品">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6l12 12M18 6 6 18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="card-meta">
+              <span class="card-num">03</span>
+              <div>
+                <h3 class="card-title" contenteditable="true" spellcheck="false" data-placeholder="为它起个名字"></h3>
+                <p class="card-desc" contenteditable="true" spellcheck="false" data-placeholder="写一句话介绍它"></p>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-category="illustration" data-page="0" data-index="3" style="--i: 3">
+            <div class="card-media">
+              <div class="card-bg" aria-hidden="true"></div>
+              <div class="card-empty" aria-hidden="true">
+                <span class="card-empty-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+                <span>添加图片</span>
+              </div>
+              <div class="card-tag" data-tag contenteditable="true" spellcheck="false" data-placeholder="插画" title="点击编辑标签,Enter 保存">插画</div>
+              <button type="button" class="card-remove" aria-label="删除这张作品">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6l12 12M18 6 6 18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="card-meta">
+              <span class="card-num">04</span>
+              <div>
+                <h3 class="card-title" contenteditable="true" spellcheck="false" data-placeholder="为它起个名字"></h3>
+                <p class="card-desc" contenteditable="true" spellcheck="false" data-placeholder="写一句话介绍它"></p>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-category="illustration" data-page="0" data-index="4" style="--i: 4">
+            <div class="card-media">
+              <div class="card-bg" aria-hidden="true"></div>
+              <div class="card-empty" aria-hidden="true">
+                <span class="card-empty-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+                <span>添加图片</span>
+              </div>
+              <div class="card-tag" data-tag contenteditable="true" spellcheck="false" data-placeholder="插画" title="点击编辑标签,Enter 保存">插画</div>
+              <button type="button" class="card-remove" aria-label="删除这张作品">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6l12 12M18 6 6 18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="card-meta">
+              <span class="card-num">05</span>
+              <div>
+                <h3 class="card-title" contenteditable="true" spellcheck="false" data-placeholder="为它起个名字"></h3>
+                <p class="card-desc" contenteditable="true" spellcheck="false" data-placeholder="写一句话介绍它"></p>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-category="illustration" data-page="0" data-index="5" style="--i: 5">
+            <div class="card-media">
+              <div class="card-bg" aria-hidden="true"></div>
+              <div class="card-empty" aria-hidden="true">
+                <span class="card-empty-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+                <span>添加图片</span>
+              </div>
+              <div class="card-tag" data-tag contenteditable="true" spellcheck="false" data-placeholder="插画" title="点击编辑标签,Enter 保存">插画</div>
+              <button type="button" class="card-remove" aria-label="删除这张作品">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6l12 12M18 6 6 18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="card-meta">
+              <span class="card-num">06</span>
+              <div>
+                <h3 class="card-title" contenteditable="true" spellcheck="false" data-placeholder="为它起个名字"></h3>
+                <p class="card-desc" contenteditable="true" spellcheck="false" data-placeholder="写一句话介绍它"></p>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-category="illustration" data-page="0" data-index="6" style="--i: 6">
+            <div class="card-media">
+              <div class="card-bg" aria-hidden="true"></div>
+              <div class="card-empty" aria-hidden="true">
+                <span class="card-empty-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+                <span>添加图片</span>
+              </div>
+              <div class="card-tag" data-tag contenteditable="true" spellcheck="false" data-placeholder="插画" title="点击编辑标签,Enter 保存">插画</div>
+              <button type="button" class="card-remove" aria-label="删除这张作品">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6l12 12M18 6 6 18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="card-meta">
+              <span class="card-num">07</span>
+              <div>
+                <h3 class="card-title" contenteditable="true" spellcheck="false" data-placeholder="为它起个名字"></h3>
+                <p class="card-desc" contenteditable="true" spellcheck="false" data-placeholder="写一句话介绍它"></p>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-category="illustration" data-page="0" data-index="7" style="--i: 7">
+            <div class="card-media">
+              <div class="card-bg" aria-hidden="true"></div>
+              <div class="card-empty" aria-hidden="true">
+                <span class="card-empty-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+                <span>添加图片</span>
+              </div>
+              <div class="card-tag" data-tag contenteditable="true" spellcheck="false" data-placeholder="插画" title="点击编辑标签,Enter 保存">插画</div>
+              <button type="button" class="card-remove" aria-label="删除这张作品">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6l12 12M18 6 6 18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="card-meta">
+              <span class="card-num">08</span>
+              <div>
+                <h3 class="card-title" contenteditable="true" spellcheck="false" data-placeholder="为它起个名字"></h3>
+                <p class="card-desc" contenteditable="true" spellcheck="false" data-placeholder="写一句话介绍它"></p>
+              </div>
+            </div>
+          </article>
+          <article class="card" data-category="illustration" data-page="0" data-index="8" style="--i: 8">
+            <div class="card-media">
+              <div class="card-bg" aria-hidden="true"></div>
+              <div class="card-empty" aria-hidden="true">
+                <span class="card-empty-icon">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+                <span>添加图片</span>
+              </div>
+              <div class="card-tag" data-tag contenteditable="true" spellcheck="false" data-placeholder="插画" title="点击编辑标签,Enter 保存">插画</div>
+              <button type="button" class="card-remove" aria-label="删除这张作品">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 6l12 12M18 6 6 18"/>
+                </svg>
+              </button>
+            </div>
+            <div class="card-meta">
+              <span class="card-num">09</span>
+              <div>
+                <h3 class="card-title" contenteditable="true" spellcheck="false" data-placeholder="为它起个名字"></h3>
+                <p class="card-desc" contenteditable="true" spellcheck="false" data-placeholder="写一句话介绍它"></p>
+              </div>
+            </div>
+          </article></div>
+        <nav class="pager" data-pager aria-label="作品页码"></nav>
+      </section>
+      <section class="about" id="about" aria-label="关于我">
+        <video class="about-video" autoplay muted loop playsinline preload="none" poster="public/about-poster.svg" data-about-video aria-hidden="true">
+          <source src="public/about.mp4" type="video/mp4" />
+        </video>
+        <div class="about-tint" aria-hidden="true"></div>
+        <div class="about-fade about-fade-top" aria-hidden="true"></div>
+        <div class="about-fade about-fade-bottom" aria-hidden="true"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.6L18.5 9 14 11.2 12.6 16 12 14.6 11.4 16 10 11.2 5.5 9l4.7-1.4L12 3z"/></svg></span><span data-brand-footer>饭堡堡</span></div>
+        <div class="socials" aria-label="社交媒体">
+          <a class="social" href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/></svg></a>
+          <a class="social" href="#" aria-label="Dribbble"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 8.5c4.2-.5 8.5.2 12.2 2.4M8.5 19.2c-.7-4.5.4-9 2.7-12.7M14 6.2c2 3.7 4.5 6.6 7.4 8.8"/></svg></a>
+          <a class="social" href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M20 4 4 20"/></svg></a>
+          <a class="social" href="#" aria-label="Email"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3 7 9 6 9-6"/></svg></a>
+        </div>
+        <p class="copyright">© 2026 饭堡堡 · made with care in Shanghai</p>
+      </div>
+    </footer>
+    <!-- Lightbox -->
+    <div class="lightbox" data-lightbox aria-hidden="true">
+      <button class="lightbox-close" data-lightbox-close aria-label="关闭">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <button class="lightbox-nav lightbox-prev" data-lightbox-prev aria-label="上一张">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="lightbox-nav lightbox-next" data-lightbox-next aria-label="下一张">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+      <figure class="lightbox-stage">
+        <div class="lightbox-img-wrap"><img data-lightbox-img alt="" /></div>
+        <figcaption class="lightbox-caption">
+          <span class="lightbox-tag" data-lightbox-tag></span>
+          <h3 class="lightbox-title" data-lightbox-title></h3>
+          <p class="lightbox-desc" data-lightbox-desc></p>
+        </figcaption>
+      </figure>
+    </div>
+
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
